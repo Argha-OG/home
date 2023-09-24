@@ -374,7 +374,7 @@ var minutesLeft = Math.floor((millisecondsLeft % (1000 * 60 * 60)) / (1000 * 60)
 var secondsLeft = Math.floor((millisecondsLeft % (1000 * 60)) / 1000);
 
 // Update the countdown text
-document.getElementById("countdown").innerHTML = daysLeft + " days, " + hoursLeft + " hours, " + minutesLeft + " minutes, and " + secondsLeft + " seconds left until 1st October!";
+document.getElementById("countdown").innerHTML = daysLeft + " days, " + hoursLeft + " hours, " + minutesLeft + " minutes, and " + secondsLeft + " seconds!";
 
 // Update the countdown every second
 setInterval(function() {
